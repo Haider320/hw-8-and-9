@@ -1,0 +1,153 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0; 
+ box-sizing:border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+nav{
+    background: #02918b;
+}
+.container{
+    width:1100px;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 15%;
+    color: red;
+    
+    
+}
+nav .menu{
+    width: 85%;
+    color: blue;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+nav div .row{
+    align-items: center;
+}
+nav .menu ul{
+    justify-content: flex-end;
+}
+
+
+nav .menu a{
+    font-size: 14px;
+    font-weight: 800;
+    color: cce9e8;
+    text-decoration: none;
+    display:inline-block ;
+    padding: 26px 25px;
+text-transform: uppercase;
+}
+
+
+#banner{
+    background-image: url(../img/haider.jpg);
+    height: 728px;
+    background-size: cover;
+    text-align: center;
+     position: relative;
+     z-index: 1;
+}
+#banner::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: black;
+    top: 0px;
+    left: opx;
+    z-index: -1;
+    opacity: 0.7;
+}
+#banner h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}  
+#banner p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+} 
+#banner a{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 15px;
+    background-color: yellow;
+    padding: 19px 42px;
+} 
+
+ #banner img{
+    display: block;
+    margin:52px auto;
+
+
+ }
+/* about section css start */
+#about{
+    text-align: center;
+    padding: 98px 0;
+}
+#about .info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+
+}
+#about .item{
+    width: 25%;
+    border-right: 1px solid #7e8287;
+    padding: 50px 60px;
+    margin-top: 50px;
+}
+#about .info p{
+    font-size: 16px;
+    color: #7e8287;
+    width: 880px;
+    margin: 0 auto;
+}
+
+#about .item:last-child{
+    border: none;
+}
+
+#about .item h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin:28px 0;
+}
+#about .item p{
+    font-size: 11px;
+    color: #7e8287;
+}
+
+
+
+
+
+
